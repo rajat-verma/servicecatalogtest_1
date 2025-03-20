@@ -1,0 +1,25 @@
+iname: complete-service
+owner: Test Owner
+description: A complete service with all fields
+tier: high
+tags:
+  - test
+  - example
+endpoints:
+  - environment: production
+    url: https://api.example.com
+  - environment: staging
+    url: https://staging.example.com
+resources:
+  - name: database
+    type: postgresql
+  - name: cache
+    type: redis
+links:
+  - title: Documentation
+    url: https://docs.example.com
+  - title: Repository
+    url: https://github.com/example/repo
+dependencies:
+  - auth-service
+  - notification-service 
