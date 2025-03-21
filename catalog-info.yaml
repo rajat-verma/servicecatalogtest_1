@@ -1,7 +1,6 @@
-iname: complete-service
-owner: Test Owner
+
 description: A complete service with all fields
-tier: high
+tier: low
 tags:
   - test
   - example
