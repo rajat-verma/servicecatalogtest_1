@@ -1,9 +1,7 @@
 
 description: A complete service with all fields
-tier: low
-tags:
-  - test
-  - example
+tier: high
+owner: abc team
 endpoints:
   - environment: production
     url: https://api.example.com
